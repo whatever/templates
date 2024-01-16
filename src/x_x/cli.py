@@ -18,7 +18,6 @@ def splash(choice):
         return fi.read()
 
 
-
 def main():
     """CLI stub"""
 

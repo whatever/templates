@@ -18,4 +18,4 @@ EYES = [
 
 def x_x():
     """Return a random face with an eye."""
-    return random.choice(EYES) + "_" + random.choice(EYES) 
+    return random.choice(EYES) + "_" + random.choice(EYES)
