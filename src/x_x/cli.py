@@ -5,7 +5,7 @@ import os.path
 from x_x import x_x
 
 
-def splash(choice):
+def splash(choice: str) -> str:
     """Return a splash screen"""
 
     fname = os.path.join(
