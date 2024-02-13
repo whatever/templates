@@ -1,21 +1,7 @@
 import argparse
-import os.path
 
 
-from x_x import x_x
-
-
-def splash(choice: str) -> str:
-    """Return a splash screen"""
-
-    fname = os.path.join(
-        os.path.dirname(__file__),
-        "splashes",
-        f"{choice}.txt",
-    )
-
-    with open(fname, "r") as fi:
-        return fi.read()
+from x_x import splash, x_x
 
 
 def main():
